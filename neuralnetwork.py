@@ -11,7 +11,7 @@ class NeuralNetwork:
         for w, b in zip(self.weights,self.biases):
             a = self.activation(np.matmul(w, a) + b)
         return a
-    print("print change")
+
 
     @staticmethod
     def activation(x):
